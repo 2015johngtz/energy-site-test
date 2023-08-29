@@ -1,0 +1,106 @@
+@import '../../Styles/Colors';
+
+.providers-back-img {
+    background-image   : url('../../assets/imgs/providersImg.png');
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    height             : 336px;
+    width              : 100%;
+    background-position: center;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : center;
+    align-items        : center;
+
+    h2 {
+        color      : $Primary_Blue;
+        font-size  : 36px;
+        font-family: 'Poppins-ExtraBold';
+        position   : relative;
+        top        : 47px;
+        width      : 459px;
+        text-align : center;
+    }
+
+    p {
+        color      : white;
+        font-size  : 14px;
+        font-family: 'Poppins-Light';
+        position   : relative;
+        top        : 40px;
+    }
+}
+
+.providers-mid-div {
+    margin-top    : 140px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : start;
+
+    h2 {
+        font-family  : 'Poppins-SemiBold';
+        color        : $Primary_Blue;
+        font-size    : 28px;
+        margin-bottom: 10px;
+        text-align   : left;
+
+    }
+
+    p {
+        font-size    : 12px;
+        margin-bottom: 10px;
+        text-align   : justify;
+        font-family  : 'Poppins-Regular';
+    }
+}
+
+.providers-table {
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    h2 {
+        font-family: 'Poppins-SemiBold';
+        color: $Primary_Blue;
+        font-size: 29px;
+
+    }
+
+    table {
+        thead {
+            tr {
+                background-color: $Primary_Blue;
+                border          : 0;
+                th {
+                    font-family: 'Poppins-Regular';
+                    font-size  : 16px;
+                    color      : white;
+                    font-weight: 100;
+                }
+            }
+        }
+        tbody{
+            tr{
+                border: 0;
+                td{
+                    font-family: 'Poppins-Regular';
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}
+.provider-plans{
+    margin-bottom: 100px;
+    h2{
+        font-family: 'Poppins-SemiBold';
+        color: $Primary_Blue;
+        font-size: 29px;
+    }
+    p{
+        font-size    : 12px;
+        margin-bottom: 10px;
+        text-align   : justify;
+        font-family  : 'Poppins-Regular';
+    }
+}
