@@ -17,7 +17,7 @@ class Routes extends Component {
     return (
 
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/serviceAreas">
@@ -35,6 +35,7 @@ class Routes extends Component {
           <Route path="/aboutUs">
             <AboutUs />
           </Route>
+
         </Switch>
     );
   }
