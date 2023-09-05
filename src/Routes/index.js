@@ -20,9 +20,6 @@ class Routes extends Component {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/home">
-            <Home />
-          </Route>
           <Route path="/serviceAreas">
             <ServiceAreas />
           </Route>

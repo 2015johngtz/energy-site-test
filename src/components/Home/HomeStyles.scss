@@ -80,20 +80,17 @@
 .top-div-main {
     overflow: hidden;
     height  : 100%;
-    // width: 100%;
 }
 
 .top-div1 {
-    height           : 750px;
-    // width: 100%;
-    background-image : url('../../assets/imgs/svg-test-3.svg');
+    height           : 650px;
+    background-image : url('../../assets/imgs/top-img1.png');
     background-repeat: no-repeat;
-    background-size  : cover;
+    background-size  : contain;
     overflow         : hidden;
     position         : relative;
-    background-position: center bottom; /* This will position the image at the bottom center */
-
     bottom           : 83px;
+
 }
 
 .zip-code-div {
@@ -225,13 +222,14 @@
 }
 
 .trouble-contact {
-    height           : 750px;
-    background-image : url('../../assets/imgs/bg-service-section-desktop.png');
-    background-repeat: no-repeat;
-    background-size  : cover;
-    overflow         : hidden;
-    position         : relative;
-    // bottom           : 0px;
+    background-color: #f8f8f8;
+    margin-top      : 60px;
+    padding-top     : 30px;
+    padding-bottom  : 31px;
+
+    .container {
+        width: max-content;
+    }
 }
 
 .trouble {
@@ -338,32 +336,27 @@
 }
 
 .div4 {
-    height           : 750px;
-    background-image : url('../../assets/imgs/bg-process-desktop.svg');
-    background-repeat: no-repeat;
-    background-size  : cover;
-    overflow         : hidden;
-    position         : relative;
-    bottom           : 8px;
+    background-color: #15bee0;
+    margin-top      : 100px;
+    padding         : 80px 30px 30px 30px;
 
     .container {
         width: max-content;
     }
 
     .div4-textDiv {
-
         width: 500px;
 
         h2 {
             font-family: 'Poppins-Bold';
-            color      : rgb(26, 26, 26);
+            color      : white;
             width      : 465px;
             font-size  : 28px;
 
         }
 
         p {
-            color      : rgb(51, 51, 51);
+            color      : white;
             font-family: 'Poppins-Regular';
             font-size  : 11px;
             text-align : justify;
@@ -384,16 +377,17 @@
 
     .div4-imgDiv {
         margin-left: 30px;
-        // position   : relative;
+        position   : relative;
         bottom     : 155px;
 
         .imgDiv {
             width            : 400px;
             background-image : url('../../assets/imgs/div4Img.png');
             background-repeat: no-repeat;
-            background-size: cover;
-            height           : 100%;
-            // bottom: 50px;
+            background-size  : cover;
+            height           : 110%;
+
+
         }
 
         .rectangle-rounded {
